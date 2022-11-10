@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lora&display=swap');
+
+html {
+    font-size: 100%;
+}
+
+body {
+    line-height: $base-line-height;
+    background-color: rgb(255, 235, 205);
+}
+
+* {
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: $magic-number * 2;
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-size: $base-font-size;
+    margin-bottom: $magic-number;
+    font-family: 'Lora', serif;
+}
+
+.main {
+    max-width: 67rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin: 0 auto;
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #222;
+    background-color: rgb(169, 169, 169);
+    color: rgb(254, 254, 254);
+}
+
+.footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer .social {
+    font-size: 2rem;
+}

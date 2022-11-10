@@ -5,4 +5,8 @@ Social:
     - title: Link till sidans github repo.
       url: https://github.com/A-Norre?tab=repositories
       icon: github
+
+    - title: Link till twitter.
+      url: https://twitter.com
+      icon: twitter 
 ---
