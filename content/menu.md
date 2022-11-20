@@ -1,0 +1,31 @@
+---
+Description: menu.
+Template: sides
+---
+<div class="sides-box css">
+    <h2><a href="css">CSS</a></h2>
+</div>
+
+<div class="sides-box html">
+    <h2><a href="html">HTML</a></h2>
+</div>
+
+<div class="sides-box js">
+    <h2><a href="javascript">JAVASCRIPT</a></h2>
+</div>
+
+<div class="sides-box php">
+    <h2><a href="php">PHP</a></h2>
+</div>
+
+<div class="sides-box python">
+    <h2><a href="python">PYTHON</a></h2>
+</div>
+
+<div class="sides-box git">
+    <h2><a href="git">GIT</a></h2>
+</div>
+
+<div class="sides-box sqlite">
+    <h2><a href="sqlite">SQLITE</a></h2>
+</div>
