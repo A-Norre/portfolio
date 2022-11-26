@@ -308,6 +308,10 @@ template {
   display: none;
 }
 
+body {
+  background-color: #1d2a40;
+}
+
 html {
   font-size: 100%;
 }
@@ -315,7 +319,7 @@ html {
 body {
   line-height: 1.4;
   background-color: red;
-  color: #333;
+  color: #fff;
 }
 
 /*

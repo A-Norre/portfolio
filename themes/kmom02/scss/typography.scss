@@ -6,13 +6,14 @@ html {
 
 body {
     line-height: $base-line-height;
-    background-color: rgb(255, 235, 205);
+    //background-color: rgb(255, 235, 205);
+    //color: $font-color;
 }
-
+/*
 * {
     color: rgb(0, 0, 0);
 }
-
+*/
 h1 {
     font-size: 3em;
     margin-bottom: $magic-number * 2;
@@ -42,13 +43,13 @@ p {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #222;
-    background-color: rgb(169, 169, 169);
-    color: rgb(254, 254, 254);
+    //background-color: rgb(169, 169, 169);
+    //color: rgb(254, 254, 254);
 }
 
 .footer a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+    //color: rgb(255, 255, 255);
+    //text-decoration: none;
 }
 
 .footer .social {
