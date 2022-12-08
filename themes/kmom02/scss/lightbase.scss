@@ -1,25 +1,44 @@
 body {
-    background-color: #00063D;
-    color: #75778A;
+    background-color: #000000;
+    color: #f6f6f6;
 }
 
 .title a {
     background-color: turquoise;
-    color: #75778A;
+    color: #f6f6f6;
 }
 .footer {
     background-color: #75778A;
 }
 
 .footer p {
-    color: #00063D;
+    //color: #00063D;
+    color: #000000;
 }
 
 .footer a {
-    color: #00063D;
+    //color: #00063D;
+    color: #000000;
     text-decoration: none;
 }
 
 .nav a {
-    color: #313FBD;
+    color: #f6f6f6;
+}
+
+a:link, a:visited {
+    color: #ffffff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.header, .footer {
+    flex: 0 0 auto;
 }

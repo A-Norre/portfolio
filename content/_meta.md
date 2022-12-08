@@ -1,5 +1,5 @@
 ---
-Logo: assets/img/Boat.jpg #image/leaf_256x256.png
+Logo: image/Boat.jpg?h=500&w=500 #image/leaf_256x256.png
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
